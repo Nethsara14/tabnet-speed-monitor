@@ -15,7 +15,14 @@ No accounts, no analytics, no servers. **Nothing ever leaves your browser.**
 
 ## Install
 
-### From source (developer mode)
+### Download (easiest)
+
+1. Go to the [Releases page](https://github.com/Nethsara14/tabnet-speed-monitor/releases) and download `net-speed-monitor-v1.2.0.zip` from the latest release.
+2. Unzip it.
+3. Open `chrome://extensions` and turn on **Developer mode** (top right).
+4. Click **Load unpacked** and select the unzipped folder (the one that contains `manifest.json`).
+
+### From source
 
 1. Download or clone this repository:
    ```bash
@@ -72,7 +79,7 @@ It is great for spotting *which tab is busy*; it is not a replacement for a netw
 - The only thing stored (locally, via `chrome.storage.local`) is your settings.
 - When the all-tabs list is open, your browser loads each tab's favicon, as it normally does.
 
-Full policy: [Privacy Policy](https://nethsara14.github.io/tabnet-speed-monitor/privacy.html)
+Full policy: [PRIVACY.md](PRIVACY.md)
 
 ## Project structure
 
@@ -86,7 +93,7 @@ icons/           Extension icons
 
 ## Contributing
 
-Issues and pull requests are welcome. If you are reporting a bug, please include your Chrome version and the page where it happened.
+Issues and pull requests are welcome on the [issues page](https://github.com/Nethsara14/tabnet-speed-monitor/issues). If you are reporting a bug, please include your Chrome version and the page where it happened.
 
 ## License
 
